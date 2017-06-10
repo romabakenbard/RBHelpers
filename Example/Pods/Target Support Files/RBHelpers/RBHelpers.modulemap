@@ -1,0 +1,6 @@
+framework module RBHelpers {
+  umbrella header "RBHelpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

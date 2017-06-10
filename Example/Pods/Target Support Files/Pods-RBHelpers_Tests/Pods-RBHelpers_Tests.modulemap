@@ -1,0 +1,6 @@
+framework module Pods_RBHelpers_Tests {
+  umbrella header "Pods-RBHelpers_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

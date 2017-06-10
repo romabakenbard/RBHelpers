@@ -1,0 +1,22 @@
+{
+  "name": "RBHelpers",
+  "version": "0.1.0",
+  "summary": "A short description of RBHelpers.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/romabakenbard/RBHelpers",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "romabakenbard": "roma.bakenbard@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/romabakenbard/RBHelpers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RBHelpers/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - RBHelpers (0.1.0)
+
+DEPENDENCIES:
+  - RBHelpers (from `../`)
+
+EXTERNAL SOURCES:
+  RBHelpers:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RBHelpers: 26c439fddd34aa419dd4563b11c0cb931debd7fa
+
+PODFILE CHECKSUM: d02b4276d8b3e06138608ccd90723aae2a5f8200
+
+COCOAPODS: 1.2.1
