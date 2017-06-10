@@ -7,6 +7,7 @@
 //
 
 #import "NSDictionary+JSON.h"
+#import "NSDate+Format.h"
 
 @interface NSNull (JSON)
 @end
@@ -135,14 +136,10 @@
 - (NSDate *)dateForKey:(NSString *)key
 {
     NSString *string = [self stringForKey:key];
-    NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    
-    NSString *dateFormat = @"dd.MM.yyyy HH:mm:ss";
-    if (dateFormat.length > string.length) {
-        dateFormat = [dateFormat substringToIndex:string.length];
+    if (string) {
+        return [NSDate dateFromString:string withFormat:@"dd.MM.yyyy HH:mm:ss"];
     }
-    dateFormatter.dateFormat = dateFormat;
-    return [dateFormatter dateFromString:string];
+    return nil;
 }
 
 - (NSDate *)dateFromTimestampForKey:(NSString *)key
