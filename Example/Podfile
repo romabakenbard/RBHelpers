@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RBHelpers_Example' do
+  pod 'RBHelpers', :path => '../'
+
+  target 'RBHelpers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
